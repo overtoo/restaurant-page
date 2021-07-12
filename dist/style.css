@@ -1,0 +1,59 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  /* background-color: lightpink; */
+  background-image: url("https://images.squarespace-cdn.com/content/v1/5dd321c53bd3a8750e66c6f6/1574734591300-S78582NHD0WN78P0ELOA/20191126+Rumi+Persian+meatballs++cooked+in+a+tomato+%26+saffron+sauce+with+labne+4.JPG");
+}
+
+div#content {
+  width: 60%;
+  margin: 0 auto;
+}
+
+div.page {
+  border-radius: 1%;
+  padding: 10px;
+  /* border-color: #a63446; */
+  padding: 20px 40px;
+}
+
+.tab {
+  cursor: pointer;
+  margin-right: 10px;
+  margin-left: 10px;
+  background-color: #a63446;
+  margin-top: 10px;
+  padding: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top-left-radius: 15%;
+  border-top-right-radius: 15%;
+}
+
+.active {
+  background-color: #0c6291;
+}
+
+.menu {
+  display: flex;
+  align-self: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 345px;
+}
+
+.page {
+  background-color: #475c54;
+  display: grid;
+  align-items: center;
+  /* justify-content: space-between; */
+}
+
+img {
+  width: 150px;
+  border-style: none;
+  object-fit: cover;
+  margin: 0 auto;
+  /* position: absolute;
+  z-index: 0; */
+}
